@@ -1,7 +1,9 @@
 import React from "react";
 import Layout from "../component/layout";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons';
 import "./Home.css";
-import VarietyContent from "../component/VarietyContent";
 
 const Home = () => {
   return (
@@ -115,7 +117,7 @@ const Home = () => {
         <div className="container mt-5">
           <div className="row">
 
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12">
 
               <div
                 id="carouselExampleCaptions"
@@ -154,7 +156,7 @@ const Home = () => {
                     aria-label="Slide 4"
                   ></button>
                 </div>
-                <div className="carousel-inner h-100" style={{ width: "35vw" }}>
+                <div className="carousel-inner h-100 carouselBox" style={{ width: "35vw" }}>
                   <div className="carousel-item active">
                     <img
                       src="https://24carrots.com/wp-content/uploads/2023/08/wedding-scroll-cropped.jpg"
@@ -187,7 +189,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-md-8 content">
+            <div className="col-lg-8 col-md-12 content">
               <h1>Making Every Experience Magical</h1>
               <div className="varieties d-flex gap-5 justify-content-start align-content-start">
                 <ul>
@@ -599,11 +601,11 @@ const Home = () => {
       {/*  11th section start */}
 
       <section className="eleventhSection">
-        <div className="content">
+        <div className="content ">
           <h1>Experiences Designed To Be Shared</h1>
           <p>Follow us for more from 24 Carrots.</p>
 
-          <div className="links">
+          <div className="links ">
             <a href="">Instagram</a>
             <a href="">Pinterest</a>
           </div>
@@ -637,7 +639,7 @@ const Home = () => {
       {/* 12TH SECTION START */}
       <section className="twelvethSection">
         <div className="row">
-          <div className="col-md-6 content">
+          <div className="col-md-12 col-lg-6 content">
             <h1>Endless Inspiration</h1>
             <p>
               Sign up to our newsletter for fresh updates, encouragement, and
@@ -656,7 +658,7 @@ const Home = () => {
             <p  style={{fontSize:"13px",marginTop:"20px",letterSpacing:"1px"}}>By clicking Sign Up you’re confirming that you agree with our Terms and Conditions</p>
           </div>
 
-          <div className="col-md-6 img">
+          <div className="col-md-12 col-lg-6 img">
             <img
               src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqz7pBf7jF--cEEFQZB0lNQmb5YCSfzRakl7HKtpyhdvLCM9Y_"
               alt=""

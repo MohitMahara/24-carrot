@@ -32,11 +32,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="allInfo container">
+      <div className="allInfo w-100">
 
-        <div className="row gap-4">
+        <div className="row w-100 gap-0 align-items-center justify-content-center p-0 m-0">
 
-          <div className="col-md-2 ">
+          <div className="col-lg-2 col-md-4 col-sm-6 forRes">
             <a href="" className="head">About</a>
             <a href="">About 24 Carrots</a>
             <a href="">Meet the Team</a>
@@ -44,7 +44,7 @@ const Footer = () => {
             <a href="">Blog</a>
           </div>
 
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-4 col-sm-6 forRes">
             <a href="" className="head">
               Services
             </a>
@@ -54,7 +54,7 @@ const Footer = () => {
             <a href="">Production</a>
           </div>
 
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-4 col-sm-6 forRes">
             <a href="" className="head">
               Events
             </a>
@@ -64,7 +64,7 @@ const Footer = () => {
             <a href="">Gallery</a>
           </div>
 
-          <div className="col-md-2">
+          <div className="col-lg-2 col-md-4 col-sm-6 forRes">
             <a href="" className="head">
               Venues
             </a>
@@ -76,7 +76,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="col-md-2 ">
+          <div className="col-lg-2 col-md-4 col-sm-6 forRes">
 
             <a href="" className="head">
               Follow us
